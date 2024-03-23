@@ -7,8 +7,8 @@ namespace Zadanie1APBD
         public static void Main(string[] args)
         {
             //zmiany
-            int[] numbers = { 1, 2, 3, 4, 5 };
-            double average = CalculateAverage(numbers);
+            int[] numbers45 = { 1, 2, 3, 4, 5 };
+            double average = CalculateAverage(numbers45);
             Console.WriteLine($"Średnia: {average}");
         }
 
