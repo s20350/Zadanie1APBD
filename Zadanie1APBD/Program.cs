@@ -19,12 +19,12 @@ namespace Zadanie1APBD
                 throw new ArgumentException("Tablica nie może być pusta");
             }
 
-            double sum = 0;
+            double sum1 = 0;
             foreach (var num in numbers)
             {
-                sum += num;
+                sum1 += num;
             }
-            return sum / numbers.Length;
+            return sum1 / numbers.Length;
         }
     }
 }
