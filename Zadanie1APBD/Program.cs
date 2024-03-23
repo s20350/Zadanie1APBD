@@ -7,8 +7,9 @@ namespace Zadanie1APBD
         public static void Main(string[] args)
         {
             //zmiany
-            int[] numbers45 = { 1, 2, 3, 4, 5 };
-            double average = CalculateAverage(numbers45);
+            int[] numbers1 = { 1, 2, 3, 4, 5 };
+            double average = CalculateAverage(numbers1);
+
             Console.WriteLine($"Średnia: {average}");
         }
 
@@ -19,12 +20,12 @@ namespace Zadanie1APBD
                 throw new ArgumentException("Tablica nie może być pusta");
             }
 
-            double sum = 0;
+            double sum1 = 0;
             foreach (var num in numbers)
             {
-                sum += num;
+                sum1 += num;
             }
-            return sum / numbers.Length;
+            return sum1 / numbers.Length;
         }
     }
 }
